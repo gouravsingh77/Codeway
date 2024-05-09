@@ -1,0 +1,96 @@
+body {
+    background-image: url('gpYhu.png');
+	background-size: cover;
+	font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+header {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+    background: linear-gradient(to right, #5c869d, #a7c0c7);
+	background-color: #333;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	margin-right: 20px;
+}
+
+.logo img {
+	height: 50px;
+	width: 50px;
+}
+
+.about {
+	padding: 20px;
+}
+
+.about img {
+	float: left;
+	margin-right: 20px;
+}
+
+.skills {
+	padding: 20px;
+}
+
+.projects {
+	padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+}
+
+.projects img {
+	border-radius: 10px;
+	size: 20px;
+}
+.projects article {
+	margin-bottom: 20px;
+}
+
+.resume {
+	padding: 20px;
+}
+
+.contact {
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+}
+a {
+	transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+	color: #f00;
+}
+@keyframes fade-in {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+section {
+	padding: 20px;
+}
+p {
+	margin-bottom: 20px;
+}
+body {
+	animation: fade-in 1s ease-in-out;
+}
